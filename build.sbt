@@ -60,4 +60,6 @@ libraryDependencies += "black.ninia" % "jep" % "3.7.1"
 
 fork in Test := true
 
-javaOptions in Test += "-Djava.library.path=/usr/local/lib/python3.6/site-packages/jep"
+//javaOptions in Test += "-Djava.library.path=/usr/local/lib/python3.6/site-packages/jep"
+javaOptions in Test += "-Djava.library.path=./lib/"
+javaOptions in runMain += "-Djava.library.path=./lib/"
