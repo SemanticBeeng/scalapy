@@ -1,5 +1,8 @@
 .idea/
-lib/
+#lib/
 project/project
 target/
 src/gen/
+project/.boot
+project/.sbtboot
+project/.ivy

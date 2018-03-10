@@ -56,7 +56,7 @@ sourceGenerators in Compile <+= baseDirectory map { dir =>
 }
 
 libraryDependencies += "org.scala-lang" % "scala-reflect" % scalaVersion.value
-libraryDependencies += "black.ninia" % "jep" % "3.7.0"
+libraryDependencies += "black.ninia" % "jep" % "3.7.1"
 
 fork in Test := true
 
